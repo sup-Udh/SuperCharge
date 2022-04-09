@@ -45,6 +45,15 @@ function GmailInBox(){
   window.open("https://mail.google.com/mail/u/0/")
 }
 
+
+if(document.getElementById("GithubRepo") != null){
+  var GmailInbox= document.getElementById("GithubRepo").addEventListener("click", GithubRepo)
+}
+
+
+function GithubRepo(){
+  window.open("https://github.com/new/")
+}
 function GetUrls()
 {
 chrome.tabs.query({}, function (tabs) {
