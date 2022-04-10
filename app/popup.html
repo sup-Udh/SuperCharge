@@ -1,27 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- StyleSheets -->
+  <link rel="stylesheet" href="./styles/tableContent.css" />
 <script src=""></script>
 <script src="./Modules/jquery.min.js"></script>
 <script src="./ajax-call.js"></script>
 <script type="module" src="./popup.js"></script>
 </script>
 <style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
 </style>
 </head>
 <body>
@@ -33,9 +21,11 @@ tr:nth-child(even) {
 
 <table>
 
-  <tbody id="myTable">
+  <tbody id="myTable" >
   <tr>
-    <td>John</td>
+    <a>
+    <td id="TwitterPost">Twitter Post</td>
+    </a>
     <td>Doe</td>
     <td>john@example.com</td>
   </tr>
