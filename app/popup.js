@@ -1,4 +1,3 @@
-
 //  Tab Code UP!
 chrome.tabs.query({ windowId: chrome.windows.WINDOW_ID_CURRENT }, (tabs) => {
   for (let i = 0; i < tabs.length; i++) {
@@ -133,4 +132,3 @@ function addBookmark(bookmarkURL, bookmarktitle)
     }
     alert(finalMessage);
 }
-
