@@ -17,7 +17,7 @@
 
 "background":
   {
-      "scripts": ["thirdParty/jquery-2.0.3.js", "background.js"]
+      "scripts": ["Modules/jquery.min.js", "popup.js"]
   },
   "commands": {
     "_execute_browser_action": {
