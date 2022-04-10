@@ -133,3 +133,4 @@ function addBookmark(bookmarkURL, bookmarktitle)
     }
     alert(finalMessage);
 }
+
